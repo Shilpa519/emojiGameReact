@@ -1,0 +1,24 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to bottom right,
+    #9796f0 0.5%,
+    #fbc7d4 150%
+  );
+  min-height: 100vh;
+}
+
+.emoji-alignment {
+  display: flex;
+  justify-content: center;
+}
+
+.emojis-list-container {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  margin: auto;
+  padding: 0px;
+  max-width: 1000px;
+}
